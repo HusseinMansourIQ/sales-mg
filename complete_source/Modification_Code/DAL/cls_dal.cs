@@ -22,8 +22,8 @@ namespace Sales_Management_2.DAL
             // sqlcon = new SqlConnection(@"Server=.;Database=DB_SaleApp;Persist Security Info=true;User Id=sales;Password=sales;Max Pool Size=50000;Pooling=True");
             //sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             //this will detect where the app is current running
-            sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\AMC\Desktop\complete_source(1)\Modification_Code\bin\Debug\selapp.mdf;" + "Integrated Security=True");
-            sqlcon2= new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\AMC\Desktop\complete_source\Modification_Code\bin\Debug\selapp.mdf\selapp.mdf;" + "Integrated Security=True");
+            sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="+ domain + "selapp.mdf;" + "Integrated Security=True");
+            sqlcon2= new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="+ domain + "selapp.mdf;" + "Integrated Security=True");
         }
            
 

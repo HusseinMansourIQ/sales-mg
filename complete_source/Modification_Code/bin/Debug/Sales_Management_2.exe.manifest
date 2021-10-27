@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sales_Management_2.exe" size="2963968">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sales_Management_2.exe" size="2963456">
       <assemblyIdentity name="Sales_Management_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1Hz0aqzy6BAthg0Y81+W8mzLABbApsd35xERp1f6B5I=</dsig:DigestValue>
+        <dsig:DigestValue>LIXyt4/rmgA5LBvj6Nv0Z6zuyrQi/qRUQWMd2A4LSdQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
