@@ -12,11 +12,12 @@ namespace Sales_Management_2.DAL
     {
         public SqlConnection sqlcon;   
         public SqlConnection sqlcon2;
+       public string domain = (AppDomain.CurrentDomain.BaseDirectory).ToString();
         //كونسكتر انشاء الاتصال
         public cls_dal()
 
         {
-            string domain = (AppDomain.CurrentDomain.BaseDirectory).ToString();
+            
             //User Id=amc;Password=amc     integrated security=true
             //Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
             // sqlcon = new SqlConnection(@"Server=.;Database=DB_SaleApp;Persist Security Info=true;User Id=sales;Password=sales;Max Pool Size=50000;Pooling=True");
