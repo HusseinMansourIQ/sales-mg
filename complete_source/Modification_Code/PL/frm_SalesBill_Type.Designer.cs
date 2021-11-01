@@ -138,7 +138,7 @@
             this.txt_NoSave.Location = new System.Drawing.Point(398, 2);
             this.txt_NoSave.Margin = new System.Windows.Forms.Padding(2);
             this.txt_NoSave.Name = "txt_NoSave";
-            this.txt_NoSave.Size = new System.Drawing.Size(154, 26);
+            this.txt_NoSave.Size = new System.Drawing.Size(154, 29);
             this.txt_NoSave.TabIndex = 3;
             this.txt_NoSave.TextChanged += new System.EventHandler(this.txt_NoSave_TextChanged);
             this.txt_NoSave.Enter += new System.EventHandler(this.txt_NoSave_Enter);
@@ -152,7 +152,7 @@
             this.txt_NameFromDataBase.Location = new System.Drawing.Point(398, 2);
             this.txt_NameFromDataBase.Margin = new System.Windows.Forms.Padding(2);
             this.txt_NameFromDataBase.Name = "txt_NameFromDataBase";
-            this.txt_NameFromDataBase.Size = new System.Drawing.Size(154, 26);
+            this.txt_NameFromDataBase.Size = new System.Drawing.Size(154, 29);
             this.txt_NameFromDataBase.TabIndex = 4;
             this.txt_NameFromDataBase.EnabledChanged += new System.EventHandler(this.txt_NameFromDataBase_EnabledChanged);
             this.txt_NameFromDataBase.TextChanged += new System.EventHandler(this.txt_NameFromDataBase_TextChanged);

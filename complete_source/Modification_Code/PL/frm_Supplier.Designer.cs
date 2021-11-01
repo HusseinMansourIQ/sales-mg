@@ -115,42 +115,42 @@
             this.حذفهذهالزبونToolStripMenuItem,
             this.toolStripSeparator3});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(205, 88);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(234, 94);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(204, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(233, 24);
             this.toolStripMenuItem2.Text = " ";
             // 
             // تعديلمعلوماتهذاالزبونToolStripMenuItem
             // 
             this.تعديلمعلوماتهذاالزبونToolStripMenuItem.Name = "تعديلمعلوماتهذاالزبونToolStripMenuItem";
-            this.تعديلمعلوماتهذاالزبونToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.تعديلمعلوماتهذاالزبونToolStripMenuItem.Size = new System.Drawing.Size(233, 24);
             this.تعديلمعلوماتهذاالزبونToolStripMenuItem.Text = "تعديل معلومات هذا الزبون";
             this.تعديلمعلوماتهذاالزبونToolStripMenuItem.Click += new System.EventHandler(this.تعديلمعلوماتهذاالزبونToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(230, 6);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(230, 6);
             // 
             // حذفهذهالزبونToolStripMenuItem
             // 
             this.حذفهذهالزبونToolStripMenuItem.Name = "حذفهذهالزبونToolStripMenuItem";
-            this.حذفهذهالزبونToolStripMenuItem.Size = new System.Drawing.Size(204, 22);
+            this.حذفهذهالزبونToolStripMenuItem.Size = new System.Drawing.Size(233, 24);
             this.حذفهذهالزبونToolStripMenuItem.Text = "حذف هذه الزبون";
             this.حذفهذهالزبونToolStripMenuItem.Click += new System.EventHandler(this.حذفهذهالزبونToolStripMenuItem_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(201, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(230, 6);
             // 
             // txt_Note
             // 
@@ -196,7 +196,7 @@
             this.txt_Search.Location = new System.Drawing.Point(136, 2);
             this.txt_Search.Margin = new System.Windows.Forms.Padding(2);
             this.txt_Search.Name = "txt_Search";
-            this.txt_Search.Size = new System.Drawing.Size(128, 27);
+            this.txt_Search.Size = new System.Drawing.Size(128, 30);
             this.txt_Search.TabIndex = 26;
             this.txt_Search.TextChanged += new System.EventHandler(this.txt_Search_TextChanged);
             // 
@@ -207,7 +207,7 @@
             this.txt_SupplierName_.Location = new System.Drawing.Point(25, 2);
             this.txt_SupplierName_.Margin = new System.Windows.Forms.Padding(2);
             this.txt_SupplierName_.Name = "txt_SupplierName_";
-            this.txt_SupplierName_.Size = new System.Drawing.Size(239, 27);
+            this.txt_SupplierName_.Size = new System.Drawing.Size(239, 30);
             this.txt_SupplierName_.TabIndex = 0;
             this.txt_SupplierName_.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_SupplierName__KeyDown);
             // 
@@ -232,7 +232,7 @@
             this.txt_SuppliePhon.Margin = new System.Windows.Forms.Padding(2);
             this.txt_SuppliePhon.MaxLength = 11;
             this.txt_SuppliePhon.Name = "txt_SuppliePhon";
-            this.txt_SuppliePhon.Size = new System.Drawing.Size(239, 27);
+            this.txt_SuppliePhon.Size = new System.Drawing.Size(239, 30);
             this.txt_SuppliePhon.TabIndex = 1;
             this.txt_SuppliePhon.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_SuppliePhon_KeyDown);
             this.txt_SuppliePhon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_SuppliePhon_KeyPress);
@@ -257,7 +257,7 @@
             this.txt_SupplierAdress.Location = new System.Drawing.Point(25, 2);
             this.txt_SupplierAdress.Margin = new System.Windows.Forms.Padding(2);
             this.txt_SupplierAdress.Name = "txt_SupplierAdress";
-            this.txt_SupplierAdress.Size = new System.Drawing.Size(239, 27);
+            this.txt_SupplierAdress.Size = new System.Drawing.Size(239, 30);
             this.txt_SupplierAdress.TabIndex = 2;
             this.txt_SupplierAdress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_SupplierAdress_KeyDown);
             // 
@@ -296,7 +296,7 @@
             this.txt_series.Margin = new System.Windows.Forms.Padding(2);
             this.txt_series.Name = "txt_series";
             this.txt_series.ReadOnly = true;
-            this.txt_series.Size = new System.Drawing.Size(84, 27);
+            this.txt_series.Size = new System.Drawing.Size(84, 30);
             this.txt_series.TabIndex = 18;
             // 
             // btn_DeleteSupplier
@@ -365,7 +365,7 @@
             this.txt_BalanceOnSupplier.Margin = new System.Windows.Forms.Padding(2);
             this.txt_BalanceOnSupplier.MaxLength = 10;
             this.txt_BalanceOnSupplier.Name = "txt_BalanceOnSupplier";
-            this.txt_BalanceOnSupplier.Size = new System.Drawing.Size(239, 27);
+            this.txt_BalanceOnSupplier.Size = new System.Drawing.Size(239, 30);
             this.txt_BalanceOnSupplier.TabIndex = 4;
             this.txt_BalanceOnSupplier.Text = "0";
             this.txt_BalanceOnSupplier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -393,7 +393,7 @@
             this.txt_BalanceToSupplier.Margin = new System.Windows.Forms.Padding(2);
             this.txt_BalanceToSupplier.MaxLength = 10;
             this.txt_BalanceToSupplier.Name = "txt_BalanceToSupplier";
-            this.txt_BalanceToSupplier.Size = new System.Drawing.Size(239, 27);
+            this.txt_BalanceToSupplier.Size = new System.Drawing.Size(239, 30);
             this.txt_BalanceToSupplier.TabIndex = 3;
             this.txt_BalanceToSupplier.Text = "0";
             this.txt_BalanceToSupplier.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -421,7 +421,7 @@
             this.dateTimePicker1.Location = new System.Drawing.Point(26, 2);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(128, 25);
+            this.dateTimePicker1.Size = new System.Drawing.Size(128, 28);
             this.dateTimePicker1.TabIndex = 32;
             // 
             // timer1
@@ -439,7 +439,7 @@
             this.txt_SupplaierID.Margin = new System.Windows.Forms.Padding(2);
             this.txt_SupplaierID.Name = "txt_SupplaierID";
             this.txt_SupplaierID.ReadOnly = true;
-            this.txt_SupplaierID.Size = new System.Drawing.Size(84, 27);
+            this.txt_SupplaierID.Size = new System.Drawing.Size(84, 30);
             this.txt_SupplaierID.TabIndex = 18;
             // 
             // label9

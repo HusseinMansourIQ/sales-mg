@@ -55,15 +55,14 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
             this.lbl_clock = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.lbl_tel1 = new System.Windows.Forms.Label();
             this.serviceController1 = new System.ServiceProcess.ServiceController();
+            this.label1 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -97,7 +96,6 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(328, 47);
             this.label2.TabIndex = 4;
-            this.label2.Text = "العنوان المسيب /هور حسين / قرية الصدرين / مقابل عمود الانارة رقم 567";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -439,7 +437,6 @@
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 4.627249F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 7.840617F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.598972F));
-            this.tableLayoutPanel4.Controls.Add(this.panel2, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.lbl_clock, 6, 0);
             this.tableLayoutPanel4.Controls.Add(this.dateTimePicker1, 4, 0);
             this.tableLayoutPanel4.Controls.Add(this.label1, 2, 0);
@@ -450,15 +447,6 @@
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.Size = new System.Drawing.Size(833, 47);
             this.tableLayoutPanel4.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Location = new System.Drawing.Point(710, 4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(50, 38);
-            this.panel2.TabIndex = 18;
             // 
             // lbl_clock
             // 
@@ -486,22 +474,6 @@
             this.dateTimePicker1.RightToLeftLayout = true;
             this.dateTimePicker1.Size = new System.Drawing.Size(114, 22);
             this.dateTimePicker1.TabIndex = 16;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(359, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(346, 47);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "اسواق الزهراء لبيع المواد الغذائية والمستلزمات المنزلية";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -600,6 +572,22 @@
             this.lbl_tel1.Text = "07777222277";
             this.lbl_tel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(574, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(131, 47);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "GSS Company ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // frm_main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -659,11 +647,10 @@
         private System.Windows.Forms.Panel panel3;
         private System.ServiceProcess.ServiceController serviceController1;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label lbl_clock;
-        private System.Windows.Forms.Label label1;
         public System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         public System.Windows.Forms.Label lbl_tel1;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -105,79 +105,79 @@
             this.toolStripMenuItem4,
             this.toolStripMenuItem5});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(159, 194);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(179, 208);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // تعديلهذهالفقرةToolStripMenuItem
             // 
             this.تعديلهذهالفقرةToolStripMenuItem.Name = "تعديلهذهالفقرةToolStripMenuItem";
-            this.تعديلهذهالفقرةToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.تعديلهذهالفقرةToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.تعديلهذهالفقرةToolStripMenuItem.Text = "تعديل هذه الفقرة";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(175, 6);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(175, 6);
             // 
             // حذفهذهالفقرةToolStripMenuItem
             // 
             this.حذفهذهالفقرةToolStripMenuItem.Name = "حذفهذهالفقرةToolStripMenuItem";
-            this.حذفهذهالفقرةToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.حذفهذهالفقرةToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.حذفهذهالفقرةToolStripMenuItem.Text = "حذف هذه الفقرة";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(175, 6);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(175, 6);
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(175, 6);
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(155, 6);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(175, 6);
             // 
             // حذفالكلToolStripMenuItem
             // 
             this.حذفالكلToolStripMenuItem.Name = "حذفالكلToolStripMenuItem";
-            this.حذفالكلToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.حذفالكلToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.حذفالكلToolStripMenuItem.Text = "حذف الكل";
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(158, 22);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(178, 24);
             this.toolStripMenuItem2.Text = "  ";
             // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(158, 22);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(178, 24);
             this.toolStripMenuItem3.Text = " ";
             // 
             // toolStripMenuItem4
             // 
             this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(158, 22);
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(178, 24);
             this.toolStripMenuItem4.Text = " ";
             // 
             // toolStripMenuItem5
             // 
             this.toolStripMenuItem5.Name = "toolStripMenuItem5";
-            this.toolStripMenuItem5.Size = new System.Drawing.Size(158, 22);
+            this.toolStripMenuItem5.Size = new System.Drawing.Size(178, 24);
             this.toolStripMenuItem5.Text = " ";
             // 
             // btn_SaveAndPrnt
@@ -304,7 +304,7 @@
             this.txt_CostmerName.Location = new System.Drawing.Point(372, 2);
             this.txt_CostmerName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CostmerName.Name = "txt_CostmerName";
-            this.txt_CostmerName.Size = new System.Drawing.Size(215, 26);
+            this.txt_CostmerName.Size = new System.Drawing.Size(215, 29);
             this.txt_CostmerName.TabIndex = 0;
             this.txt_CostmerName.TextChanged += new System.EventHandler(this.txt_costName_TextChanged);
             this.txt_CostmerName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txt_CostmerName_KeyDown_1);
@@ -414,7 +414,7 @@
             this.txt_PaidMony.Location = new System.Drawing.Point(485, 2);
             this.txt_PaidMony.Margin = new System.Windows.Forms.Padding(2);
             this.txt_PaidMony.Name = "txt_PaidMony";
-            this.txt_PaidMony.Size = new System.Drawing.Size(81, 27);
+            this.txt_PaidMony.Size = new System.Drawing.Size(81, 30);
             this.txt_PaidMony.TabIndex = 8;
             this.txt_PaidMony.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_PaidMony.TextChanged += new System.EventHandler(this.txt_PaidMony_TextChanged);
@@ -445,7 +445,7 @@
             this.txt_BalanceAftercurentBill.Margin = new System.Windows.Forms.Padding(2);
             this.txt_BalanceAftercurentBill.Name = "txt_BalanceAftercurentBill";
             this.txt_BalanceAftercurentBill.ReadOnly = true;
-            this.txt_BalanceAftercurentBill.Size = new System.Drawing.Size(66, 26);
+            this.txt_BalanceAftercurentBill.Size = new System.Drawing.Size(66, 29);
             this.txt_BalanceAftercurentBill.TabIndex = 12;
             this.txt_BalanceAftercurentBill.Text = "0";
             this.txt_BalanceAftercurentBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;

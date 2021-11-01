@@ -102,14 +102,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sales_Management_2.exe" size="2963456">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Sales_Management_2.exe" size="2962944">
       <assemblyIdentity name="Sales_Management_2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WxPUjY40pkfljh3yj4X07dkplX+E+EJDs7/aBqEL9K4=</dsig:DigestValue>
+        <dsig:DigestValue>qunZXE8PKL4wqQZg2kCIJj41HMEaBSua2F0a6RvTaFo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -152,7 +152,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uO/bacBGEcSz7DbYAohmBNvjVwXaZadu03W15+/Z7EY=</dsig:DigestValue>
+      <dsig:DigestValue>u49tR9b6drU6sko2j+yipB2N/CRvsWae4k1Wm69+EoI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="selapp_log.ldf" size="8388608" writeableType="applicationData">
@@ -161,7 +161,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>3E/fYkXYElrr3MU2CX3LN9LLVPbpME6F040GZOVUazc=</dsig:DigestValue>
+      <dsig:DigestValue>k4xvhB3licfw9KJSeC9AfsbDDGHcvLEOf+eSG2ubVL8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

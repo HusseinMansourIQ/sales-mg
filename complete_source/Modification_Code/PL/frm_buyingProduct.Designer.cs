@@ -337,7 +337,6 @@
             this.btn_SavePill.TabIndex = 10;
             this.btn_SavePill.Text = "حفظ هذه الفاتورة";
             this.btn_SavePill.UseVisualStyleBackColor = false;
-            this.btn_SavePill.Visible = false;
             this.btn_SavePill.Click += new System.EventHandler(this.btn_SavePill_Click);
             // 
             // btn_Insert

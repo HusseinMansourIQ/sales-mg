@@ -157,10 +157,10 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(207, 0);
+            this.label11.Location = new System.Drawing.Point(202, 0);
             this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(44, 36);
+            this.label11.Size = new System.Drawing.Size(49, 36);
             this.label11.TabIndex = 44;
             this.label11.Text = "نوع القائمة";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -306,7 +306,7 @@
             this.txt_SalesBill_date.Location = new System.Drawing.Point(187, 2);
             this.txt_SalesBill_date.Margin = new System.Windows.Forms.Padding(2);
             this.txt_SalesBill_date.Name = "txt_SalesBill_date";
-            this.txt_SalesBill_date.Size = new System.Drawing.Size(176, 26);
+            this.txt_SalesBill_date.Size = new System.Drawing.Size(176, 29);
             this.txt_SalesBill_date.TabIndex = 12;
             // 
             // txt_BalanceAftercurentBill
@@ -318,7 +318,7 @@
             this.txt_BalanceAftercurentBill.Margin = new System.Windows.Forms.Padding(2);
             this.txt_BalanceAftercurentBill.Name = "txt_BalanceAftercurentBill";
             this.txt_BalanceAftercurentBill.ReadOnly = true;
-            this.txt_BalanceAftercurentBill.Size = new System.Drawing.Size(131, 27);
+            this.txt_BalanceAftercurentBill.Size = new System.Drawing.Size(131, 30);
             this.txt_BalanceAftercurentBill.TabIndex = 30;
             this.txt_BalanceAftercurentBill.Text = "0";
             this.txt_BalanceAftercurentBill.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -372,7 +372,7 @@
             this.txt_RestMony.Margin = new System.Windows.Forms.Padding(2);
             this.txt_RestMony.Name = "txt_RestMony";
             this.txt_RestMony.ReadOnly = true;
-            this.txt_RestMony.Size = new System.Drawing.Size(221, 27);
+            this.txt_RestMony.Size = new System.Drawing.Size(221, 30);
             this.txt_RestMony.TabIndex = 29;
             this.txt_RestMony.Text = "0";
             this.txt_RestMony.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -385,7 +385,7 @@
             this.txt_SalesBill_Id.Location = new System.Drawing.Point(255, 2);
             this.txt_SalesBill_Id.Margin = new System.Windows.Forms.Padding(2);
             this.txt_SalesBill_Id.Name = "txt_SalesBill_Id";
-            this.txt_SalesBill_Id.Size = new System.Drawing.Size(108, 26);
+            this.txt_SalesBill_Id.Size = new System.Drawing.Size(108, 29);
             this.txt_SalesBill_Id.TabIndex = 12;
             // 
             // label10
@@ -410,7 +410,7 @@
             this.txt_PaidMony.Margin = new System.Windows.Forms.Padding(2);
             this.txt_PaidMony.Name = "txt_PaidMony";
             this.txt_PaidMony.ReadOnly = true;
-            this.txt_PaidMony.Size = new System.Drawing.Size(221, 27);
+            this.txt_PaidMony.Size = new System.Drawing.Size(221, 30);
             this.txt_PaidMony.TabIndex = 28;
             this.txt_PaidMony.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txt_PaidMony.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_PaidMony_KeyPress);
@@ -437,7 +437,7 @@
             this.txt_CostmerName.Margin = new System.Windows.Forms.Padding(2);
             this.txt_CostmerName.Name = "txt_CostmerName";
             this.txt_CostmerName.ReadOnly = true;
-            this.txt_CostmerName.Size = new System.Drawing.Size(221, 26);
+            this.txt_CostmerName.Size = new System.Drawing.Size(221, 29);
             this.txt_CostmerName.TabIndex = 0;
             // 
             // label8
