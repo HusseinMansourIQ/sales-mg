@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\DAL",
     "\\PL"
   ],
-  "SelectedNode": "\\Sales_Management_2.sln",
+  "SelectedNode": "\\DAL\\cls_dal.cs",
   "PreviewInSolutionExplorer": false
 }
