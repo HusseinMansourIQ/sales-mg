@@ -24,7 +24,7 @@ namespace Sales_Management_2.PL
             try
             {
               SqlConnection connect = new SqlConnection();
-            connect.ConnectionString = "Data Source=AMC-PC;Initial Catalog=DB1;Integrated Security=True";
+            connect.ConnectionString = "Server =.;Database=DB_SaleApp;Integrated Security = True";
 
             connect.Open();
 
@@ -100,7 +100,7 @@ namespace Sales_Management_2.PL
             try
             {
 SqlConnection connect = new SqlConnection();
-            connect.ConnectionString = "Data Source=AMC-PC;Initial Catalog=DB1;Integrated Security=True";
+            connect.ConnectionString = "Server =.;Database=DB_SaleApp;Integrated Security = True";
             if (connect.State == ConnectionState.Closed)
             {
                 connect.Open();

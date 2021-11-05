@@ -38,7 +38,7 @@ namespace Sales_Management_2.PL
 
         AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
         AutoCompleteStringCollection coll2 = new AutoCompleteStringCollection();
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename= " + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;" + "Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True");
         SqlDataAdapter da;
         SqlDataAdapter da2;
         DataTable DT = new DataTable();
@@ -258,7 +258,7 @@ namespace Sales_Management_2.PL
             try
             {
                 string domain = (AppDomain.CurrentDomain.BaseDirectory).ToString();
-                using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename= " + domain + "selapp.mdf;" + "Integrated Security=True"))
+                using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
             {
                 da = new SqlDataAdapter("SELECT CUSTOMER_Table.* FROM CUSTOMER_Table where Cust_name='" + txt_CostmerName.Text + "'", connection);
                 DataTable dt = new DataTable();
@@ -385,7 +385,7 @@ namespace Sales_Management_2.PL
             try
             {
                 string domain = (AppDomain.CurrentDomain.BaseDirectory).ToString();
-                using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename= " + domain + "selapp.mdf;" + "Integrated Security=True"))
+                using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
                 {
                     SqlCommand command = new SqlCommand("SELECT CUSTOMER_Table.* FROM CUSTOMER_Table where Cust_name='" + txt_CostmerName.Text + "'", connection);
                     connection.Open();
@@ -646,7 +646,7 @@ namespace Sales_Management_2.PL
         {
             try
             {string domain = (AppDomain.CurrentDomain.BaseDirectory).ToString();
-                using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="+ (AppDomain.CurrentDomain.BaseDirectory) + "selapp.mdf;Integrated Security=True"))
+                using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
                 {
                     SqlDataAdapter da3 = new SqlDataAdapter("SELECT CUSTOMER_Table.* FROM CUSTOMER_Table where Cust_name='" + txt_CostmerName.Text + "'", connection);
                     DataTable dt3 = new DataTable();

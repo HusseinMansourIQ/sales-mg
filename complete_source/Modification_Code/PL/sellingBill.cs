@@ -39,7 +39,7 @@ namespace Sales_Management_2.PL
 
         AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
         AutoCompleteStringCollection coll2 = new AutoCompleteStringCollection();
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True");
         SqlDataAdapter da;
         SqlDataAdapter da2;
         DataTable DT = new DataTable();
@@ -287,7 +287,7 @@ namespace Sales_Management_2.PL
         {
           try
           {
-            using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
             {
                 da = new SqlDataAdapter("SELECT CUSTOMER_Table.* FROM CUSTOMER_Table where Cust_name='" + txt_CostmerName.Text + "'", connection);
                 DataTable dt = new DataTable();
@@ -322,7 +322,7 @@ namespace Sales_Management_2.PL
             try
             {
   // دالة فحص اسم الزبون اذا كان موجود سابقا تجعل الفوكس على خانة المنتوجات واذا كان غير موجود يتم اظهار رسالة من خيارين وتشغل من خلال حدث الكي داون ل تيكست اسم الزبون 
-            using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
             {
                 da = new SqlDataAdapter("SELECT PRODUCT_Table.* FROM PRODUCT_Table where Pro_Name='" + txt_prodName.Text + "'", connection);
                 DataTable dt = new DataTable();
@@ -397,7 +397,7 @@ namespace Sales_Management_2.PL
         {
             try
             {
-            using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
             {
                 SqlCommand command = new SqlCommand("SELECT PRODUCT_Table.* FROM PRODUCT_Table where Pro_Name='" + txt_prodName.Text + "'", connection);
                 connection.Open();
@@ -435,7 +435,7 @@ namespace Sales_Management_2.PL
         {
             try
             {
-            using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
             {
                 SqlCommand command = new SqlCommand("SELECT CUSTOMER_Table.* FROM CUSTOMER_Table where Cust_name='" + txt_CostmerName.Text + "'", connection);
                 connection.Open();
@@ -900,7 +900,7 @@ txt_totalAfterDis.Text = (from DataGridViewRow row in dgv_sellingPill.Rows
         {
             try
             {
-            using (SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True"))
+            using (SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True"))
             {
                 SqlDataAdapter da3 = new SqlDataAdapter("SELECT CUSTOMER_Table.* FROM CUSTOMER_Table where Cust_name='" + txt_CostmerName.Text + "'", connection);
                 DataTable dt3 = new DataTable();

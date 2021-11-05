@@ -20,7 +20,7 @@ namespace Sales_Management_2.PL
         DAL.cls_dal dal = new DAL.cls_dal();
         DataTable DT = new DataTable();
         AutoCompleteStringCollection coll = new AutoCompleteStringCollection();
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\selapp.mdf;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True");
         SqlDataAdapter da2;
         DataTable dt2;
         int f = 1;

@@ -17,14 +17,14 @@ namespace Sales_Management_2.DAL
         public cls_dal()
 
         {
-            
+
             //User Id=amc;Password=amc     integrated security=true
             //Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
             // sqlcon = new SqlConnection(@"Server=.;Database=DB_SaleApp;Persist Security Info=true;User Id=sales;Password=sales;Max Pool Size=50000;Pooling=True");
             //sqlcon = new SqlConnection(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
             //this will detect where the app is current running
-            sqlcon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="+ domain + "selapp.mdf;" + "Integrated Security=True");
-            sqlcon2= new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename="+ domain + "selapp.mdf;" + "Integrated Security=True");
+            sqlcon = new SqlConnection(@"Server=.;Database=DB_SaleApp;Integrated Security=True;Max Pool Size=50000;Pooling=True");
+            sqlcon2 = new SqlConnection(@"Server=.;Database=master;Integrated Security=True;Max Pool Size=50000;Pooling=True");
         }
            
 

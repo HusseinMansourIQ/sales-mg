@@ -496,7 +496,7 @@ namespace Sales_Management_2.PL
             try
             {
                 string domain = (AppDomain.CurrentDomain.BaseDirectory).ToString();
-                SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename= " + domain + "selapp.mdf;" + "Integrated Security=True");
+                SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True");
                 SqlDataAdapter da = new SqlDataAdapter();
                 //دالة لتغيير خصائص تيكست بوكس للاملاء التلقائي
                 txt_CostmerName.AutoCompleteMode = AutoCompleteMode.SuggestAppend;

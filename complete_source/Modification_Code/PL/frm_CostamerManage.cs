@@ -460,7 +460,7 @@ namespace Sales_Management_2.PL
 
             try
             {
-                SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True");
+                SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True");
                 SqlDataAdapter da = new SqlDataAdapter();
                 //دالة لتغيير خصائص تيكست بوكس للاملاء التلقائي
                 txt_Search.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
@@ -489,7 +489,7 @@ namespace Sales_Management_2.PL
 
             try
             {
-                SqlConnection connection = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + (AppDomain.CurrentDomain.BaseDirectory).ToString() + "selapp.mdf;Integrated Security=True");
+                SqlConnection connection = new SqlConnection(@"Server =.;Database=DB_SaleApp;Integrated Security = True");
                 SqlDataAdapter da = new SqlDataAdapter();
                 //دالة لتغيير خصائص تيكست بوكس للاملاء التلقائي
                 txt_delete_cust.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
